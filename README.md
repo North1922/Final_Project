@@ -1,6 +1,6 @@
 # Игра: Мой путь к BackEnd разработчику!
 
-(images/player/north.png)
+![alt text](http://url/to/img.png)
 
 **Эта игра была создана в рамках финального проекта к бесплатному курсу по базовому Python от Максима WOZBORN (https://github.com/WOZBORN, https://www.twitch.tv/wozborn)**
 Игра олицетвояряет мой путь к BackEnd разработчику. Что же свалится на голову к человеку который начинает изучать BackEnd?
