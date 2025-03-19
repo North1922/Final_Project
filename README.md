@@ -1,6 +1,6 @@
 # Игра: Мой путь к BackEnd разработчику!
 
-![.]([https://github.com/North1922/Final_Project/images/player/north.png](https://github.com/North1922/Final_Project/blob/master/images/player/north.png))
+![.](https://github.com/North1922/Final_Project/blob/master/images/player/north.png)
 
 **Эта игра была создана в рамках финального проекта к бесплатному курсу по базовому Python от Максима WOZBORN (https://github.com/WOZBORN, https://www.twitch.tv/wozborn)**
 Игра олицетвояряет мой путь к BackEnd разработчику. Что же свалится на голову к человеку который начинает изучать BackEnd?
