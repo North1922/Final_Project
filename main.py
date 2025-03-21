@@ -23,9 +23,9 @@ def show_welcome_screen(manager):
     )
 
     # Текст приветствия
-    text_rect = pygame.Rect(50, 50, 500, 100)
+    text_rect = pygame.Rect(50, 50, 500, 120)
     welcome_text = pygame_gui.elements.UITextBox(
-        html_text="Добро пожаловать в игру про мой путь к BackEnd разработчику!",
+        html_text="Добро пожаловать в игру про мой путь к BackEnd разработчику!\n \n \nНажмите ESC во время игры для выхода.",
         relative_rect=text_rect,
         manager=manager,
         container=welcome_window,
@@ -95,6 +95,11 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
+
+            # Выход из игры при нажатии ESC
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_ESCAPE:
+                    run = False
 
             # Обработка событий pygame_gui
             if event.type == pygame_gui.UI_BUTTON_PRESSED:
